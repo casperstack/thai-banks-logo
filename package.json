@@ -1,0 +1,15 @@
+{
+  "name": "thai-banks-logo",
+  "version": "1.0.0",
+  "description": "รายชื่อธนาคาร และ โลโก้ธนาคาร ในประเทศไทย",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/casperstack/thai-banks-logo.git"
+  },
+  "author": "fasterv410",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/casperstack/thai-banks-logo/issues"
+  },
+  "homepage": "https://github.com/casperstack/thai-banks-logo#readme"
+}
