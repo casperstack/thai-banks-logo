@@ -1,6 +1,6 @@
 {
   "name": "thai-banks-logo",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "รายชื่อธนาคาร และ โลโก้ธนาคาร ในประเทศไทย",
   "main": "index.ts",
   "repository": {
