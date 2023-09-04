@@ -1,16 +1,29 @@
-# โลโก้ธนาคาร
+# Thai Banks Logo
 
-## การติดตั้ง
+## Installation
+
 ```
 npm i thai-banks-logo
 yarn add thai-banks-logo
 ```
 
-### รายชื่อข้อมูลธนาคารประเทศไทย
+## Example usage
+
+```javascript
+import thaiBanks from 'thai-banks-logo'
+import { Bank } from 'thai-banks-logo/types'
+
+const baacBank: Bank = bankLists['BAAC']
+console.log(baacBank.name) // Output: ธ.ก.ส.
+console.log(baacBank.symbol) // Output: BAAC
+
+console.log(bankLists) // Show all bank lists
+```
+
 ![ตัวอย่าง](./preview.png)
 
 ```
-รายชื่อธนาคาร และ โลโก้ธนาคาร 21 ธนาคาร ประกอบด้วย:
+List of Thai Banks 21 banks include:
 
 - พร้อมเพย์ (PromptPay)
 - ทรูมันนี่ (TrueMoney)
@@ -35,8 +48,8 @@ yarn add thai-banks-logo
 - ธนาคารเพื่อการเกษตรและสหกรณ์การเกษตร (BAAC)
 ```
 
-## รายละเอียด
-- โลโก้แบบ PNG
-- ชื่อภาษาไทย
-- ชื่อภาษาอังกฤษ
-- ชื่อย่อธนาคาร
+## Details
+
+- Bank logo .PNG
+- Bank name Thai and English
+- Bank symbol
