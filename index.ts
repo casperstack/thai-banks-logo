@@ -1,4 +1,4 @@
-import { Bank, BankList } from './types'
+import { BankList } from './types'
 
 const bankLists: BankList = {
   BAAC: {
@@ -149,10 +149,5 @@ const bankLists: BankList = {
     icon: "https://raw.githubusercontent.com/casperstack/thai-banks-logo/master/icons/UOB.png"
   }
 }
-
-// Example usage:
-// const baacBank: Bank = bankLists['BAAC']
-// console.log(baacBank.name) // Output: ธ.ก.ส.
-// console.log(baacBank.symbol) // Output: BAAC
 
 export default bankLists
