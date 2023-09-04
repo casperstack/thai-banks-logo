@@ -4,6 +4,7 @@
 
 ```
 npm i thai-banks-logo
+# or
 yarn add thai-banks-logo
 ```
 
