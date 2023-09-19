@@ -1,5 +1,10 @@
 # Thai Banks Logo
 
+## UPDATE
+
+Version >= 1.0.6
+- Add bank HEX colors
+
 ## Installation
 
 ```
@@ -14,9 +19,9 @@ yarn add thai-banks-logo
 import thaiBanks from 'thai-banks-logo'
 import { Bank } from 'thai-banks-logo/types'
 
-const baacBank: Bank = bankLists['BAAC']
-console.log(baacBank.name) // Output: ธ.ก.ส.
-console.log(baacBank.symbol) // Output: BAAC
+const baacBank: Bank = bankLists['KBANK']
+console.log(baacBank.name) // Output: กสิกรไทย
+console.log(baacBank.symbol) // Output: KBANK
 
 console.log(bankLists) // Show all bank lists
 ```
