@@ -1,9 +1,10 @@
 export interface Bank {
   name: string
-  nameLong: string
+  fullname: string
   nameEN: string
   symbol: string
   icon: string
+  color: string
 }
 
 export interface BankList {
