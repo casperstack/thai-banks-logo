@@ -1,14 +1,12 @@
 # Thai Banks Logo
-
-## UPDATE
-
-Version >= 1.0.6
-- Add bank HEX colors
+- รวมรูปภาพธนาคารทั้งหมด 21 ธนาคาร
+- รองรับการใช้ TypeScript
+- รองรับการใช้ ES6
 
 ## Installation
 
 ```
-npm i thai-banks-logo
+pnpm i thai-banks-logo
 # or
 yarn add thai-banks-logo
 ```
@@ -17,12 +15,12 @@ yarn add thai-banks-logo
 
 ```javascript
 import thaiBanks from 'thai-banks-logo'
-import { Bank } from 'thai-banks-logo/types'
+import type { Bank } from 'thai-banks-logo/types'
 
 const baacBank: Bank = bankLists['KBANK']
 console.log(baacBank.name) // Output: กสิกรไทย
 console.log(baacBank.symbol) // Output: KBANK
-
+console.log(baacBank.color) // Output: #000000
 console.log(bankLists) // Show all bank lists
 ```
 

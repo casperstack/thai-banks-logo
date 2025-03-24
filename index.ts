@@ -1,6 +1,6 @@
 import { BankList } from './types'
 
-const bankLists: BankList = {
+export const bankLists: BankList = {
   KBANK: {
     name: "กสิกรไทย",
     fullname: "ธนาคารกสิกรไทย",
@@ -170,5 +170,3 @@ const bankLists: BankList = {
     color: "#EE252B"
   }
 }
-
-export default bankLists
